@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 3</title>
+		<meta name="viewport" content="width=device-width, intial-scale=1.0">
+		<link href="css/bootstraplumen.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+ 	</head>
+ 	<body>
+ 		<div class="jumbotron">
+ 			
+ 			<div class="container" align="center">
+ 				<h1>Mostly Sweet</h1>
+ 				<h2>...with a Few Nuts</h2>
+ 			</div>
+ 			
+ 		</div>
+<!-- Begin NavBar--> 		
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- What do lines 24 through 32 do? -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="recipeindex.html">Recipes</a></li>
+        <li><a href="#gallery" data-toggle="modal">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#contact" data-toggle="modal">Contact</a></li>
+      </ul>
+<!--Search stuff 
+	     <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+-->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-pinterest">Pinterest</i></a></li>
+        <li><a href="#"><i class="fa fa-twitter">Twitter</i></a></li>
+        <li><a class="facebook" href="#"><i class="fa fa-facebook">Facebook</i></a></li>
+        <li><a href="#"><i class="fa fa-instagram">Instagram</i></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--End NavBar--> 		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12" align="center">
+					<a href="#" ><img src="images/Recipe001/image3.jpg" width="80%"/></a>
+				</div>
+			</div>
+ 			<div class="row">
+ 				<div class="col-md-3">
+ 					<a href="#"><img src="images/Recipe001/image3.jpg" width="100%"/></a>
+ 					<h4><a href="#">Raspberry Cheesecake Brownies</a></h4>
+ 					<p>First few lines of blog entry here...</p>
+ 					<a href="#" class="btn btn-default">Read More</a>
+ 				</div>
+ 				<div class="col-md-3">
+ 					<a href="#"><img src="images/Recipe001/image7.jpg" width="100%"/></a>
+ 					<h4><a href="#">Raspberry Cheesecake Brownies</a></h4>
+ 					<p>First few lines of blog entry here...</p>
+ 					<a href="#" class="btn btn-default">Read More</a>
+ 				</div>
+ 				<div class="col-md-3">
+ 					<a href="#"><img src="images/Recipe001/image2.jpg" width="100%"/></a>
+ 					<h4><a href="#">Raspberry Cheesecake Brownies</a></h4>
+ 					<p>First few lines of blog entry here...</p>
+ 					<a href="#" class="btn btn-default">Read More</a>
+ 				</div>
+ 				<div class="col-md-3">
+ 					<a href="#"><img src="images/Recipe001/image6.jpg" width="100%"/></a>
+ 					<h4><a href="#">Raspberry Cheesecake Brownies</a></h4>
+ 					<p>First few lines of blog entry here...</p>
+ 					<a href="#" class="btn btn-default">Read More</a>
+ 				</div>
+ 		</div>
+ 		
+ 		<div class="jumbotron">
+ 			<div id="footer" class="container" align="center">
+ 				<a href="#"><i class="fa fa-pinterest">Pinterest</i></a>
+ 				<a href="#"><i class="fa fa-twitter">Twitter</i></a>
+ 				<a href="#"><i class="fa fa-facebook">Facebook</i></a>
+ 				<a href="#"><i class="fa fa-instagram">Instagram</i></a> <br>
+ 				<p style=font-size:11px;color:#c9c9c9;> Copyright &copy; 2015 Keeley Naughton &amp; mostlysweetwithafewnuts.com. All rights reserved. <br>
+ 				<a href="index.html">Home</a>-<a href="recipeindex.html">Recipes</a>-<a href="#">Gallery</a>-<a href="about.html">About</a>-<a href="#contact" data-toggle="modal">Contact</a> <br>
+ 				<a href="#" class="navbar-btn btn-default btn">Back to Top</a> <br>
+ 				</p>
+ 			</div>
+ 		</div>
+<!--Begin Contact Modal code -->	
+<div class="modal fade" id="contact" role="dialog">
+ 			<div class="modal-dialog">
+ 				<div class="modal-content">
+ 					<form class="form-horizontal">
+ 						<div class="modal-header">
+ 							<p>Contact Food Blog</p>
+ 						</div>
+ 						<div class="modal-body">
+ 						
+ 							<div class="form-group">
+ 								
+ 								<label for="contact-name" class="col-lg-2 control-label">Name:</label>
+ 								<div class="col-lg-10">
+ 									<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+ 								</div>
+ 								
+ 								<label for="contact-email" class="col-lg-2 control-label">E-mail:</label>
+ 								<div class="col-lg-10">
+ 									<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+ 								</div>
+ 								
+ 								 <label for="contact-message" class="col-lg-2 control-label">Message:</label>
+ 								<div class="col-lg-10">
+ 									<textarea class="form-control" rows="8"></textarea>
+ 								</div>
+ 								
+ 							</div>
+ 						
+ 						</div>
+ 						<div class="modal-footer">
+ 							<a class="btn btn-default" data-dismiss="modal">Close</a>
+ 							<button class="btn btn-primary" type="submit">Send</button>
+ 						</div>
+ 					</form>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<!-- End code for Contact Modal -->
+ 		<!-- Begin code for Gallery Modal -->
+ 		<div class="modal fade" id="gallery" role="dialog">
+ 			<div class="modal-dialog">
+ 				<div class="modal-content">
+ 					<form class="form-horizontal">
+ 						<div class="modal-header">
+ 							<p>Gallery</p>
+ 						</div>
+ 						<div class="modal-body">
+ 						
+ 							<div class="form-group">
+ 								
+ 								<img src="images/Recipe001/image1.jpg" width="100%"/>
+ 								
+ 							</div>
+ 						
+ 						</div>
+ 						<div class="modal-footer">
+ 							<a class="btn btn-default" data-dismiss="modal">Close</a>
+ 							<button class="btn btn-primary" type="submit">Send</button>
+ 						</div>
+ 					</form>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<!-- End code for Gallery Modal-->
+ 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ 		<!-- may need to manually change http:// to https://-->
+ 		<script src="js/bootstrap.js"></script>
+ 		
+ 	</body>
+</html>
